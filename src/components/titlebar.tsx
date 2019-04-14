@@ -1,4 +1,4 @@
-import "./titlebar.scss";
+import "../styles/titlebar.scss";
 
 import { h, Component } from "preact";
 import { remote } from "electron";
