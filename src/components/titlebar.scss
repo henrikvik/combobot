@@ -1,0 +1,26 @@
+.titlebar {
+    -webkit-app-region: drag;
+
+    background: hsl(200, 50%, 60%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 2em;
+    color: white;
+
+    &-close {
+        -webkit-app-region: no-drag;
+
+        background: hsl(0, 50%, 60%);
+        color: white;
+        border: none;
+
+        width: 2em;
+        height: 2em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-self: flex-end;
+
+    }
+}

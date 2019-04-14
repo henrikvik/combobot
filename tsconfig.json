@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "commonjs",
+        "outDir": "build",
+        "sourceMap": true,
+        "alwaysStrict": true,
+        "allowJs": false,
+        "jsx": "react",
+        "jsxFactory": "h",
+    },
+    "compileOnSave": true,
+    "include": [
+        "./main.ts",
+    ],
+    "exclude": [
+        "node_modules",
+        "build"
+    ],
+}

@@ -1,0 +1,21 @@
+{
+  "name": "combobot",
+  "version": "0.0.0",
+  "description": "tool for building combos in fighting games",
+  "author": "Henrik Vik",
+  "license": "MIT",
+  "main": "build/main.js",
+  "scripts": {
+    "start": "./node_modules/.bin/electron ."
+  },
+  "dependencies": {
+    "node-vigem": "^1.0",
+    "preact": "^8.4.2"
+  },
+  "devDependencies": {
+    "babel-preset-preact": "^1.1.0",
+    "electron": "4.0.4",
+    "sass": "^1.17.0",
+    "typescript": "^3.3.1"
+  }
+}
