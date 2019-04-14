@@ -1,5 +1,5 @@
 import "./styles/index.scss";
-import {h, render} from "preact"
+import {h, render} from "preact";
 
 import App from "./components/app";
 
