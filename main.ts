@@ -4,9 +4,9 @@ let win : BrowserWindow;
 app.on("ready", () => {
     win = new BrowserWindow({
         width: 800,
-        height: 200,
+        height: 400,
         frame: false,
-        resizable: false,
+        resizable: true,
     });
 
     win.loadFile(`${__dirname}/index.html`);
