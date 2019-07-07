@@ -15,3 +15,14 @@ app.on("ready", () => {
 app.on("window-all-closed", () => {
     app.quit();
 });
+
+
+import * as process from "child_process";
+let vigem = process.spawn("vigem-interface");
+vigem.stdin.setDefaultEncoding("utf-8");
+
+let d = 1;
+setInterval(()=>{
+    d = (d % 9) + 1;
+    vigem.stdin.write("D"+d+" R"+d+" L"+d+" ");
+}, 100);
